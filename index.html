@@ -43,7 +43,7 @@
       }
       nav ul li a:hover {
         color: rgb(239, 136, 32);
-        font-size: 2.02rem;
+        font-size: 1.02rem;
       }
       .left {
         font-size: 2rem;
@@ -60,23 +60,23 @@
         align-items: center;
       }
       .leftSection {
-        font-size: 0.8rem;
+        font-size: 2rem;
         margin: 70px 0;
       }
       .kunj {
-        font-size: 3rem;
+        font-size: 4rem;
       }
       .blue {
         color: rgb(215, 125, 29);
       }
       .link {
         width: 8rem;
-        height: auto;
-        margin-left: 8rem;
-        margin-top: 1rem;
+        height:6rem;
+        margin-left: 2rem;
+        margin-top: 0.5rem;
       }
       .hero-text {
-        font-size: 1rem;
+        font-size: 1.8rem;
         font-family: "Nunito", sans-serif;
       }
       .cto-btn {
@@ -87,9 +87,9 @@
           rgba(218, 119, 219, 1) 78%
         );
         padding: 0.8rem;
-        width: 4rem;
+        width: 8rem;
         text-align: center;
-        border-radius: 11px;
+        border-radius: 10px;
         color: white;
         font-family: "Poppins", sans-serif;
         text-decoration: none;
@@ -106,8 +106,48 @@
           rgba(151, 99, 225, 1) 20%,
           rgba(218, 119, 219, 1) 78%
         );
-        box-shadow: 3px 3px 14px 0px rgba(0,0,0,0.52);
-
+        box-shadow: 3px 3px 14px 0px rgba(0, 0, 0, 0.52);
+      }
+      .qr-text {
+        margin: 1.0001rem;
+        font-size: 1.3rem;
+        font-family: "poppins", sans-serif;
+        color: black;
+      }
+      .skill {
+        text-align: center;
+        color: black;
+        font-family: "poppins", sans-serif;
+        margin: 0.8rem;
+        font-size: 3.8rem;
+      }
+      .tech {
+        width: 10rem;
+        height: auto;
+        margin-left: 8rem;
+        margin-top: 0.5rem;
+        margin-bottom: 3rem;
+        border-radius: 25px;
+        background: url(paper.gif);
+        background-position: left top;
+        background-repeat: repeat;
+        
+      }
+      #element {
+        color: rgb(215, 125, 29);
+      }
+      footer{
+        background-color: rgb(94, 95, 96);
+        font-size: 1.3rem;
+        height: 200px;
+      }
+      .footer{
+        display: flex;
+        padding: 23px 12px;
+        justify-content: space-evenly;
+      }
+      .footer ul{
+        list-style: none;
       }
     </style>
   </head>
@@ -132,24 +172,98 @@
           Hey! I am <br /><span class="blue kunj">Kunj Tyagi</span>,<br />
           <p class="hero-text">
             an aspiring Web Developer,passionate about staying updated with the
-            latest tech trends and emerging technologies. and keen interested in
-            Competetive Programming.
+            latest tech trends and emerging technologies and keen interested in
+            <span id="element"></span>
           </p>
           <div class="">
             <a class="cto-btn" href="#link">Explore</a>
           </div>
         </div>
         <div class="rightSection">
-          <img src="y.png.png" alt="" />
+          <img src="y.png" alt="" />
         </div>
       </section>
-      <section id="link">
+      <section>
+        <p class="skill">My Skills</p>
+      </section>
+      <section id="tech">
         <img
-          src="link.png"
-          class="link"
-          alt="https://www.linkedin.com/in/kunj-tyagi-07688423b/"
+          src="download1.png"
+          class="tech"
+          alt="c++"
+          style="width: 100px; height: 120px"
+        />
+        <img
+          src="download2.png"
+          class="tech"
+          alt="c"
+          style="width: 100px; height: 120px"
+        />
+        <img
+          src="download3.png"
+          class="tech"
+          alt="html"
+          style="width: 100px; height: 120px"
+        />
+        <img
+          src="download4.png"
+          class="tech"
+          alt="css"
+          style="width: 100px; height: 120px"
+        />
+        <img
+          src="download5.png"
+          class="tech"
+          alt="JavaScript"
+          style="width: 100px; height: 120px"
         />
       </section>
+      
+      </section>
     </main>
+    <footer>
+        <div class="footer">
+          <div class="first">
+            <h3>Kunj's Portfolio</h3>
+            <section id="link">
+              <img
+                src="link1.png"
+                class="link"
+                alt="https://www.linkedin.com/in/kunj-tyagi-07688423b/"
+              />
+          </div>
+          <div class="second">
+            <ul>
+              <li>Home</li>
+              <li>Contact Me</li>
+              <li>About</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+          <div class="third">
+            <ul>
+              <li>Resume</li>
+              <li>Site Credit</li>
+              <li>Accessibility</li>
+              <li>Terms and Condition</li>
+            </ul>
+          </div>
+          <div class="fourth">
+            <ul>
+              <li>Social Media links</li>
+              <li>Copyright Notice</li>
+              <li>Sitemap</li>
+              <li>Back To Top Button</li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Development", "Competetive Programming"],
+        typeSpeed: 50,
+      });
+    </script>
   </body>
 </html>
