@@ -39,6 +39,7 @@ nav ul li a:hover {
 .firstSection {
   color: black;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 23px 0;
   align-items: center;
@@ -74,7 +75,7 @@ nav ul li a:hover {
     rgba(151, 99, 225, 1) 20%,
     rgba(218, 119, 219, 1) 78%
   );
-  padding: 0.8rem;
+  padding: 0.2rem;
   width: 8rem;
   text-align: center;
   border-radius: 10px;
@@ -106,32 +107,46 @@ nav ul li a:hover {
 .tech {
   width: 10rem;
   height: auto;
-  margin-left: 8rem;
-  margin-top: 0.5rem;
+  margin-left: 5.5rem;
+  margin-top: 0.8rem;
   margin-bottom: 3rem;
   border-radius: 25px;
   background: url(paper.gif);
   background-position: left top;
   background-repeat: repeat;
-  
+
 }
 #element {
   color: rgb(215, 125, 29);
 }
 footer{
-  background-color: rgb(94, 95, 96);
+  background-color: rgb(95, 95, 95);
   font-size: 1.3rem;
-  height: 228px;
+  height: 230px;
 }
 .footer{
   display: flex;
   padding: 23px 12px;
   justify-content: space-evenly;
 }
-.footer ul{
+.footer ul li{
   list-style: none;
+}
+.footer ul li a{
+  text-decoration: none;
+  color: rgb(251, 251, 252);
+}
+.footer ul li a:hover{
+  text-decoration: none;
+  color: rgb(64, 212, 173);
 }
 .footer-rights{
    text-align: center;
-   color: rgb(230, 244, 127);
+   color: rgb(214, 221, 160);
+}
+.tech1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
