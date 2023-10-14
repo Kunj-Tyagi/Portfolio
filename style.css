@@ -16,6 +16,7 @@ nav {
   align-items: center;
   height: 70px;
   background-color: rgb(13, 13, 13);
+  flex-wrap: wrap;
 }
 nav ul {
   display: flex;
@@ -30,7 +31,7 @@ nav ul li a {
   color: rgb(251, 251, 252);
 }
 nav ul li a:hover {
-  color: rgb(92, 150, 65);
+  color: rgb(205, 172, 74);
   font-size: 1.02rem;
 }
 .left {
@@ -148,5 +149,9 @@ footer{
   display:flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+}
+.right{
+  display: flex;
   flex-wrap: wrap;
 }
