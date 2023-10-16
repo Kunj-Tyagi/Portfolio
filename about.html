@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>About-Me</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,32 +14,83 @@
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="">About Me</a></li>
-        </ul>
+        <div class="right">
+          <ul>
+            <li><a href="">About-me</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
       <section class="firstSection">
         <div class="leftSection">
           <p class="hero-text">
-            I am from Hapur(UP),I did my class 10 and 12 from P P J Saraswati
-            Vihar,Nainital that was a boarding school,My Hobbies are Playing
-            Football,Volleyball,Watching movies and Web Series. My achievement
-            is that,I played football at National Level and won SILVER MEDAL in
-            2015-16 at BETUL(MADHYA PRADESH). Our team won GOLD MEDAL in DRILL
-            competition in NCC CAMP,RANIBAGH,NAINITAL and I am one of them and
-            won many medals in school interhouse competition in different game.
+            Hi Everyone,I am <span class="blue kunj">Kunj Tyagi</span> from
+            Hapur,Uttar Pradesh.<br />
+            I am pursuing my B-Tech in Computer Science Engineering from Ajay
+            Kumar Garg Engineering College,Ghaziabad.I did my class 10 and 12
+            from <span id="element"></span>that was a boarding school.<br />
+            <br />
+            Apart from coding,some of my hobbies are:<br />
+            Playing football,volleyball<br />
+            watching webseries,movies.<br />
+            <span class="blue kunj">NCC-volunteer</span> in 2017-19.
+            <br /><br />
+            Achievements are: Our team won silver medal at
+            <span class="blue kunj">national level</span> in football
+            (Betul,Madhya Pradesh).<br />
+            Our team won gold medal in
+            <span class="blue kunj">drill competition</span> in NCC Camp
+            (Ranibagh,Nainital) and won several medals in interhouse sports
+            competition in our school.
+
             <span id="element"></span>
           </p>
         </div>
+
         <div class="rightSection">
-          <img src="download.png" alt="" />
-        </div>
-        <div class="rightSection">
-          <img src="images.png" alt="" />
+          <img src="bg.png" alt="" />
+          <img src="spor.png" alt="" />
+          <img src="sports12.png" alt="" />
         </div>
       </section>
     </main>
+    <footer>
+    <div class="footer">
+      <div class="first">
+        <h3>Kunj's Portfolio</h3>
+        <section id="link">
+          <img
+            src="link3.png"
+            class="link"
+            alt="https://www.linkedin.com/in/kunj-tyagi-07688423b/"
+          />
+      </div>
+      <div class="second">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Resume</a></li>
+          <li><a href="https://www.codechef.com/users/kunjtyagi24">Codechef</a></li>
+        </ul>
+      </div>
+      <div class="third">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/kunj-tyagi-07688423b/">Linkedin</a></li>
+          <li><a href="https://github.com/Kunj-Tyagi">Github</a></li>
+          <li><a href="https://instagram.com/kunjtyagi21?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-rights">
+      www.kunjtyagi24@gmail.com | All rights reserved
+    </div>
+</footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Parwati Prema Jagati Saraswati Vihar,Nainital"],
+        typeSpeed: 40,
+      });
+    </script>
   </body>
 </html>

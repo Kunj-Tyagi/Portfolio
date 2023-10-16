@@ -1,52 +1,106 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 body {
-    background-color: rgb(184, 230, 240);
-    color: rgb(21, 21, 21);
-    font-family: "Poppins", sans-serif;
-  }
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 70px;
-    background-color: rgb(13, 13, 13);
-    font-size: 2.5rem;
-  }
-  nav ul {
-    display: flex;
-    justify-content: center;
-  }
-  nav ul li {
-    list-style: none;
-    margin: 0 23px;
-  }
-  nav ul li a {
-    text-decoration: none;
-    color: rgb(251, 251, 252);
-  }
-  nav ul li a:hover {
-    color: rgb(239, 136, 32);
-    font-size: 2.59rem;
-  }
-  .hero-text {
-    font-size: 1.8rem;
-    font-family: "Nunito", sans-serif;
-  }
-  .school {
-    font-size: 2.6rem;
-  }
-  .firstSection {
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 23px 0;
-    align-items: center;
-  }
-  .leftSection {
-    font-size: 2rem;
-    margin: 70px 0;
-  }
+  background-color: rgb(184, 230, 240);
+  color: rgb(252, 248, 248);
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: rgb(13, 13, 13);
+  flex-wrap: wrap;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 25px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(251, 251, 252);
+}
+nav ul li a:hover {
+  color: rgb(239, 165, 36);
+  font-size: 2.02rem;
+}
+.right{
+  font-size: 2rem;
+}
+.firstSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 23px 0;
+  color: black;
+}
+.firstSection div{
+  width: 30%;
+}
+.leftSection{
+  font-size: .5rem;
+  margin: 30px;
+}
+.rightSection img{
+      width:100%;
+      margin:50px 0;
+}
+.hero-text {
+  font-size: 1.8rem;
+  font-family: "Nunito", sans-serif;
+}
+.kunj {
+  font-size: 2rem;
+}
+.blue {
+  color: rgb(215, 125, 29);
+}
+#element {
+  color: rgb(215, 125, 29);
+}
+.second{
+  margin-top: 2rem;
+  margin-right: 10rem;
+}
+.third{
+  margin-top: 2rem;
+  margin-right: 10rem;
+}
+footer{
+  background-color:rgb(13, 13, 13);
+  font-size: 1.02rem;
+  height: 220px;
+}
+.footer{
+  display: flex;
+  padding: 10px 10px;
+  justify-content: space-evenly;
+}
+.footer ul li{
+  list-style: none;
+}
+.footer ul li a{
+  text-decoration: none;
+  color: rgb(251, 251, 252);
+}
+.footer ul li a:hover{
+  text-decoration: none;
+  color: rgb(205, 143, 51);
+}
+.footer-rights{
+   text-align: center;
+   color: rgb(195, 195, 95);
+}
+.link {
+  width: 8rem;
+  height:7rem;
+  margin-left: 1rem;
+  margin-top:1.02rem;
+}
