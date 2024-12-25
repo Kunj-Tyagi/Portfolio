@@ -2,23 +2,18 @@
 
 .navbar {
   background-color: black !important;
-  height: 4.5rem;
+  height: 4.7rem;
 }
 
-.navbar .conatiner-fluid {
-  margin-top: 4rem !important;
-  margin-bottom: 4rem !important;
-}
-
-.navbar .kt{
-    color: white !important;
+.kt {
+  color: white !important;
 }
 
 .navbar .nav-link,
 .navbar .navbar-brand {
   color: rgb(210, 207, 207) !important;
+  font-weight: 500;
 }
-
 
 .navbar-toggler {
   border: 1px solid rgb(6, 6, 6); /* Set border to black */

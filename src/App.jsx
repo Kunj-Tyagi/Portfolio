@@ -12,8 +12,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <Aboutme />
       <Hero />
+      <Aboutme />
       <Projects />
       <Achievement />
       <Footer />
