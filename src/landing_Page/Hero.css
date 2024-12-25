@@ -1,16 +1,19 @@
-.responsive-text {
-    font-size: 2rem;
-    font-weight: 600;
+.hero {
+    margin-left: 2.4rem !important;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    line-height: 1; /* Ensures consistent line spacing */
   }
   
   @media (max-width: 768px) {
-    .responsive-text {
-      font-size: 1.5rem; /* Adjust the size as needed */
+    .hero {
+      margin-left: 1rem !important; /* Adjust the size as needed */
     }
   }
   
   @media (max-width: 480px) {
-    .responsive-text {
-      font-size: 1.2rem; /* Adjust the size as needed */
+    .hero {
+      margin-left: 0rem !important; /* Adjust the size as needed */
     }
   }

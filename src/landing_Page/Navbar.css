@@ -9,6 +9,22 @@
   color: white !important;
 }
 
+.container-fluid {
+    margin-left: 6rem !important;
+  }
+  
+  @media (max-width: 768px) {
+    .container-fluid {
+      margin-left: 3rem !important; /* Adjust the size as needed */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container-fluid {
+      margin-left: 1rem !important; /* Adjust the size as needed */
+    }
+  }
+
 .navbar .nav-link,
 .navbar .navbar-brand {
   color: rgb(210, 207, 207) !important;
@@ -24,9 +40,9 @@
 .navbar-toggler:focus,
 .navbar-toggler:active {
   background-color: rgb(
-    255,
-    255,
-    255
+    4,
+    4,
+    4
   ); /* Change background color to pink on hover, focus, and active */
 }
 

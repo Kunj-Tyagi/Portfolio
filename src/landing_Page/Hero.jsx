@@ -1,8 +1,9 @@
 import React from "react";
+import "./Hero.css";
 
 function Hero() {
   return (
-    <div
+    <div className="hero"
       style={{
         marginLeft: "2.4rem",
         paddingTop: "3rem",
@@ -11,7 +12,20 @@ function Hero() {
         lineHeight: "1", // Ensures consistent line spacing
       }}
     >
-      <p className="fs-sm-1"
+      <style>
+        {`
+          @media (max-width: 768px) {
+            .responsive-text {
+              font-size: 1.5rem !important;
+            }
+            .responsive-title {
+              font-size: 4rem !important;
+            }
+          }
+        `}
+      </style>
+      <p
+        className="responsive-text"
         style={{
           color: "rgb(60,207,145)",
           marginLeft: "0.4rem",
@@ -24,6 +38,7 @@ function Hero() {
         Hey there! This is -
       </p>
       <h2
+        className="responsive-title"
         style={{
           fontSize: "6rem",
           color: "white",
@@ -47,7 +62,13 @@ function Hero() {
         }}
       >
         Software Developer.{" "}
-        <span style={{ color: "rgb(123, 122, 122)",marginTop: ".5rem", display: "inline-block"  }}>
+        <span
+          style={{
+            color: "rgb(123, 122, 122)",
+            marginTop: ".5rem",
+            display: "inline-block",
+          }}
+        >
           A self- taught developer with strong foundation
         </span>
         <br></br>
