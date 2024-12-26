@@ -6,7 +6,7 @@ function Hero() {
     <div className="hero"
       style={{
         marginLeft: "2.4rem",
-        paddingTop: "3rem",
+        paddingTop: "2.9rem",
         paddingLeft: "3rem",
         paddingRight: "3rem",
         lineHeight: "1", // Ensures consistent line spacing
@@ -69,7 +69,7 @@ function Hero() {
             display: "inline-block",
           }}
         >
-          A self- taught developer with strong foundation
+          A self-taught developer with strong foundation
         </span>
         <br></br>
       </p>
@@ -83,7 +83,7 @@ function Hero() {
           fontWeight: "600",
         }}
       >
-        and keen interest in Computer Science
+        and keen interest in Computer Science.
       </p>
       <p
         style={{
