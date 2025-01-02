@@ -27,8 +27,9 @@
 
 .navbar .nav-link,
 .navbar .navbar-brand {
-  color: rgb(210, 207, 207) !important;
-  font-weight: 500;
+  color: white !important;
+  font-weight: 700;
+  font-size: large;
 }
 
 .navbar-toggler {

@@ -1,9 +1,14 @@
 import React from "react";
 import "./Hero.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function Hero() {
   return (
-    <div className="hero"
+    <div
+      className="hero"
       style={{
         marginLeft: "2.4rem",
         paddingTop: "2.9rem",
@@ -99,6 +104,25 @@ function Hero() {
           ⚡ Fullstack Developer at MLCoE
         </span>
       </p>
+      <div className="mt-5">
+        <a href="https://github.com/Kunj-Tyagi"><button
+          type="button"
+          className="btn btn-secondary d-inline-block me-3 ms-2 "
+        ><FontAwesomeIcon icon={faGithub} style={{color:"#3ccf91",marginRight:"0.8rem"}}/>
+          GitHub
+        </button></a>
+        <a href="https://www.linkedin.com/in/kunj-tyagi-7b2b5a1b1/">
+        <button type="button" className="btn btn-secondary d-inline-block me-3">
+        <FontAwesomeIcon icon={faLinkedin} style={{color:"#3ccf91",marginRight:"0.8rem"}}/>
+          LinkedIn
+        </button></a>
+        <a href="mailto:kunjtyagi24@gmail.com">
+        <button type="button" className="btn btn-secondary d-inline-block">
+        <FontAwesomeIcon icon={faEnvelope} style={{color:"#3ccf91",marginRight:"0.8rem"}}/>
+          Email
+        </button>
+        </a>
+      </div>
     </div>
   );
 }

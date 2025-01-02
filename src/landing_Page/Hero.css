@@ -17,3 +17,12 @@
       margin-left: 0rem !important; /* Adjust the size as needed */
     }
   }
+
+  /* button */
+  .btn{
+    color: white !important;
+    background-color: #ffffff14 !important;
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+    border: #ffffff14;
+  }

@@ -36,11 +36,11 @@ function Navbar() {
           <div
             className="collapse navbar-collapse"
             id="navbarSupportedContent"
-            style={{ marginRight: "10rem" }}
+            style={{ marginRight: "7rem" }}
           >
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item me-4">
-                <a className="nav-link active " aria-current="page" href="#">
+                <a className="nav-link active navurl" aria-current="page" href="#">
                   Home
                 </a>
               </li>
@@ -54,7 +54,7 @@ function Navbar() {
                   Project
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item me-1">
                 <a className="nav-link active" aria-current="page" href="#">
                   Resume
                 </a>
