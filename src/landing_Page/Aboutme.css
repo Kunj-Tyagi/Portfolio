@@ -9,8 +9,6 @@
   margin-top: 5rem !important;
   font-size: 1.2rem !important;
   color: rgb(123, 122, 122) !important;
-  /* margin-right: 2rem !important; */
-  /* margin-bottom: 2rem !important; */
   overflow: hidden !important;
 }
 
@@ -31,16 +29,16 @@
     width: 250px;
     align-items: center !important;
     border-radius: 100% !important;
-    /* margin-left: 4rem !important; */
     padding-right: 0rem !important;
   }
   .aboutme {
     margin-left: 3.3rem !important;
     margin-right: 3.3rem !important;
-    font-size: 1rem !important;
+    font-size: 1.3rem !important;
   }
   .Me {
-    margin-left: 3.3rem !important;
+    margin-left: 2.8rem !important;
+    font-size: 1.7rem !important;
   }
 }
 
