@@ -1,9 +1,9 @@
 import React from "react";
 import "./Hero.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
   return (
@@ -29,8 +29,7 @@ function Hero() {
           }
         `}
       </style>
-      <p
-        className="responsive-text"
+      <p className="responsive-text"
         style={{
           color: "rgb(60,207,145)",
           marginLeft: "0.4rem",
@@ -42,8 +41,7 @@ function Hero() {
       >
         Hey there! This is -
       </p>
-      <h2
-        className="responsive-title"
+      <h2 className="responsive-title"
         style={{
           fontSize: "6rem",
           color: "white",
@@ -56,41 +54,27 @@ function Hero() {
         Kunj Tyagi.
       </h2>
       <br></br>
-      <p
-        style={{
-          color: "rgb(244, 247, 246)",
-          marginLeft: "0.4rem",
-          marginBottom: ".5rem", // Removes space below this line
-          padding: "0", // Ensures no extra padding
-          fontSize: "2rem",
-          fontWeight: "600",
-        }}
-      >
-        Software Developer.{" "}
-        <span
-          style={{
-            color: "rgb(123, 122, 122)",
-            marginTop: ".5rem",
-            display: "inline-block",
-          }}
-        >
-          A self-taught developer with strong foundation
-        </span>
-        <br></br>
-      </p>
-      <p
-        style={{
-          color: "rgb(123, 122, 122)",
-          marginLeft: "0.4rem",
-          marginBottom: "3rem", // Removes space below this line
-          padding: "0", // Ensures no extra padding
-          fontSize: "2rem",
-          fontWeight: "600",
-        }}
-      >
-        and keen interest in Computer Science.
-      </p>
-      <p
+      <div className="container">
+        <div className="row">
+          <div
+            className="col-lg-9 col-sm-10"
+            style={{
+              color: "rgb(123, 122, 122)",
+              marginLeft: "0.4rem",
+              marginBottom: ".5rem", // Removes space below this line
+              padding: "0", // Ensures no extra padding
+              fontSize: "2rem",
+              fontWeight: "600",
+            }}
+          >
+            <span style={{color: "rgb(244, 247, 246)"}}>Software Developer.</span> A self-taught developer with strong
+            foundation and keen interest in Computer Science.
+          </div>
+          <div className="col-lg-3 col-sm-2"></div>
+        </div>
+      </div>
+      <br></br><br></br>
+      <p className="res"
         style={{
           color: "rgb(123, 122, 122)",
           marginLeft: "0.4rem",
@@ -98,29 +82,45 @@ function Hero() {
           fontWeight: "400",
         }}
       >
-        🚀 Currently specializing in MERN (React / Node.js)
+        🚀 Currently specializing in MERN
         <br></br>
         <span style={{ marginTop: ".5rem", display: "inline-block" }}>
           ⚡ Fullstack Developer at MLCoE
         </span>
       </p>
       <div className="mt-5">
-        <a href="https://github.com/Kunj-Tyagi"><button
-          type="button"
-          className="btn btn-secondary d-inline-block me-3 ms-2 "
-        ><FontAwesomeIcon icon={faGithub} style={{color:"#3ccf91",marginRight:"0.8rem"}}/>
-          GitHub
-        </button></a>
+        <a href="https://github.com/Kunj-Tyagi">
+          <button
+            type="button"
+            className="btn btn-secondary d-inline-block me-3 "
+          >
+            <FontAwesomeIcon
+              icon={faGithub}
+              style={{ color: "#3ccf91", marginRight: "0.6rem" }}
+            />
+            GitHub
+          </button>
+        </a>
         <a href="https://www.linkedin.com/in/kunj-tyagi-7b2b5a1b1/">
-        <button type="button" className="btn btn-secondary d-inline-block me-3">
-        <FontAwesomeIcon icon={faLinkedin} style={{color:"#3ccf91",marginRight:"0.8rem"}}/>
-          LinkedIn
-        </button></a>
+          <button
+            type="button"
+            className="btn btn-secondary d-inline-block me-3"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              style={{ color: "#3ccf91", marginRight: "0.6rem" }}
+            />
+            LinkedIn
+          </button>
+        </a>
         <a href="mailto:kunjtyagi24@gmail.com">
-        <button type="button" className="btn btn-secondary d-inline-block">
-        <FontAwesomeIcon icon={faEnvelope} style={{color:"#3ccf91",marginRight:"0.8rem"}}/>
-          Email
-        </button>
+          <button type="button" className="btn btn-secondary d-inline-block">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              style={{ color: "#3ccf91", marginRight: "0.6rem" }}
+            />
+            Email
+          </button>
         </a>
       </div>
     </div>
