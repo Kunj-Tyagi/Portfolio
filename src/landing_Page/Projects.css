@@ -17,8 +17,23 @@
 }
 
 .Me {
-  margin-left: 5.0rem;
-  
+  margin-left: 6rem;
+}
+
+.card {
+  background-color: black !important;
+  color: white !important;
+  margin-right: 2rem !important;
+  margin-top: 10rem !important;
+}
+
+.right {
+  margin-top: 8rem;
+}
+
+.card-img-top {
+  height: 15rem;
+  width: 33rem;
 }
 
 @media (max-width: 480px) {

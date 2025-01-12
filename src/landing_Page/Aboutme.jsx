@@ -6,9 +6,9 @@ function Aboutme() {
     <div className="conatiner">
       <div className="row">
         <div className="col-lg-6 col-sm-12 ">
-          <h3 className="Me" style={{ color: "white" }}>
+          <h1 className="Me" style={{ color: "white" }}>
             ⚡ About Me
-          </h3>
+          </h1>
           <p className="aboutme">
             Hey! I'm Kunj Tyagi, I've been close to a computer since an early
             age, and been passionate about it ever since.
@@ -25,8 +25,8 @@ function Aboutme() {
           </p>
         </div>
         <div className="col-lg-1"></div>
-        <div className="col-lg-5 col-sm-12 mt-5 img">
-          <img className="image" src="/kunj.jpg" alt="Kunj" />
+        <div className="col-lg-5 col-sm-12 mt-5 text-center">
+          <img className="image img-fluid" src="/kunj.jpg" alt="Kunj" />
         </div>
       </div>
     </div>
