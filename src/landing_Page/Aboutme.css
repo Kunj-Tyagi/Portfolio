@@ -17,8 +17,11 @@
 }
 
 .Me {
-  margin-left: 5.0rem;
-  
+  margin-left: 5rem;
+}
+
+.text-center {
+  margin-top: 6rem !important;
 }
 
 @media (max-width: 480px) {

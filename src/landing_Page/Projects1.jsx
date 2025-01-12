@@ -14,7 +14,10 @@ function Aboutme() {
             <img src="./Video.webp" className="card-img-top" alt="WanderLust" />
             <div className="card-body">
               <p className="card-text">
-                <a href="https://wanderlust-4-vmpt.onrender.com/">
+                <a
+                  href="https://wanderlust-4-vmpt.onrender.com/"
+                  className="link"
+                >
                   {" "}
                   <FontAwesomeIcon
                     icon={faArrowUpRightFromSquare}
@@ -47,23 +50,16 @@ function Aboutme() {
         </div>
         <div className="col-lg-1"></div>
         <div className="col-lg-6 col-sm-12 ">
-          <h3 style={{ marginLeft: "5.6rem" }}>🏠 Video Conferencing App</h3>
+          <h3 style={{ marginLeft: "5.6rem" , marginTop:"6rem"}}>🏠 Video Conferencing App</h3>
           <p className="aboutme">
-            The Video Conferencing App is a full-stack web application that
-            enables seamless and secure virtual communication. It features user
-            authentication for easy login and registration, allowing users to
-            join or create video calls with ease.
-            <br></br>
-            <br></br>
-            With real-time video and audio communication, users can interact in
-            a virtual meeting space, share screens, and collaborate efficiently.
-            The platform is optimized for all devices, ensuring a smooth user
-            experience across desktops, tablets, and smartphones.
-            <br></br>
-            <br></br>
-            Built with Node.js, Express.js, MongoDB, and JavaScript, this
-            application provides a reliable backend and an intuitive front-end
-            interface, making video conferencing simple and accessible. 🌟
+            The Video Conferencing App is a full-stack web app for secure
+            virtual communication, featuring user authentication for easy login
+            and registration. Users can join or create video calls with
+            real-time video/audio, screen sharing, and efficient collaboration.
+            Optimized for all devices, it ensures a smooth experience on
+            desktops, tablets, and smartphones. Built with Node.js, Express.js,
+            MongoDB, and JavaScript, it offers a reliable backend and intuitive
+            front-end. 🌟
           </p>
         </div>
       </div>

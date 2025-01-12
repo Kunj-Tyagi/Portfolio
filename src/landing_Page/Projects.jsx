@@ -15,18 +15,15 @@ function Projects() {
           </h1>
           <br></br>
           <br></br>
-          <h3 style={{ marginLeft: "5.6rem" }}>🏠 WanderLust</h3>
+          <h3 style={{ marginLeft: "5.6rem", marginBottom:"0rem" , marginTop:"6rem"}}>🏠 WanderLust</h3>
           <p className="aboutme">
-            WanderLust is a full-stack web application designed to simplify the
-            process of listing and renting spaces. It features secure user
-            authentication, allowing users to log in or sign up easily.<br></br>{" "}
-            <br></br>With listing management, users can create, view, and manage
-            their rental properties. The platform supports image uploads,
-            enabling users to showcase their spaces visually. Its responsive
-            design ensures an optimized experience across all devices.<br></br>{" "}
-            <br></br>This application is built using Node.js, Express.js,
-            MongoDB, and JavaScript, providing a robust backend and a seamless
-            user interface. 🌟
+            WanderLust is a full-stack web app for listing and renting spaces,
+            offering secure user authentication for easy login and signup. Users
+            can create, view, and manage rental properties with image upload
+            support for better visual representation. The platform is fully
+            responsive, ensuring an optimized experience on all devices. Built
+            with Node.js, Express.js, MongoDB, and JavaScript, it delivers a
+            robust backend and seamless user interface. 🌟
           </p>
         </div>
         {/* <div className="col-lg-1"></div> */}
@@ -39,7 +36,10 @@ function Projects() {
             />
             <div className="card-body">
               <p className="card-text">
-                <a href="https://wanderlust-4-vmpt.onrender.com/">
+                <a
+                  href="https://wanderlust-4-vmpt.onrender.com/"
+                  className="link"
+                >
                   {" "}
                   <FontAwesomeIcon
                     icon={faArrowUpRightFromSquare}
@@ -53,11 +53,14 @@ function Projects() {
                 <a href="https://go.screenpal.com/watch/cZlXoannaUX">
                   <FontAwesomeIcon
                     icon={faVideo}
-                    style={{ color: "#3ccf91", fontSize: "2rem",  marginRight: "1rem", }}
+                    style={{
+                      color: "#3ccf91",
+                      fontSize: "2rem",
+                      marginRight: "1rem",
+                    }}
                   />
                 </a>
                 <a href="https://github.com/Kunj-Tyagi/WanderLust">
-                 
                   <FontAwesomeIcon
                     icon={faGithub}
                     style={{ color: "#3ccf91", fontSize: "2rem" }}

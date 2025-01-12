@@ -5,8 +5,8 @@
   margin-left: 3rem !important;
 }
 
-.conatiner {
-  margin-top: 5rem !important;
+.container {
+  /* margin-top: 5rem !important; */
   font-size: 1.2rem !important;
   color: rgb(123, 122, 122) !important;
   overflow: hidden !important;
@@ -32,7 +32,7 @@
 }
 
 .card-img-top {
-  height: 15rem;
+  height: 20rem;
   width: 33rem;
 }
 
@@ -40,26 +40,54 @@
   .container {
     overflow: hidden !important;
   }
+
+  /* Centering the image */
   .image {
     height: 200px;
     width: 200px;
     border-radius: 100% !important;
-    padding-right: 0rem !important;
-    margin-left: 5rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     display: block !important;
     margin: 0 auto !important;
     max-width: 100% !important;
   }
-  .img {
-    align-items: center !important;
-  }
+
+  /* Adjust text styling */
   .aboutme {
-    margin-left: 3.3rem !important;
-    margin-right: 3.3rem !important;
-    font-size: 1.3rem !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    font-size: 1rem !important;
   }
+
   .Me {
-    margin-left: 2.8rem !important;
-    font-size: 1.7rem !important;
+    margin-left: 1.5rem !important;
+    font-size: 1.5rem !important;
+  }
+
+  /* Center card */
+  .card {
+    margin-right: 0 !important;
+    margin-top: 3rem !important;
+    width: 100% !important;
+    display: flex !important; /* Make the card a flex container */
+    justify-content: center !important; /* Center content horizontally */
+    align-items: center !important; /* Center content vertically */
+    text-align: center !important; /* Align text to the center */
+  }
+
+  /* Make card image responsive */
+  .card-img-top {
+    height: 14rem !important;
+    width: 100% !important;
+    margin-right: 5.6rem !important;
+  }
+
+  .link{
+    margin-left: -15rem !important;
+  }
+
+  .right{
+    margin-top: .5rem !important;
   }
 }
