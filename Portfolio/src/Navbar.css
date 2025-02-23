@@ -1,0 +1,120 @@
+/* Navbar Container */
+.nav {
+    display: flex; /* Arranges navbar items (logo, links) in a horizontal row. */
+    justify-content: space-between; /* Pushes logo to the left and links/hamburger to the right. */
+    align-items: center; /* Aligns items vertically in the center. */
+    position: sticky; /* Navbar sticks to the top of the screen when scrolling. */
+    top: 0; /* Navbar sticks to the top of the screen when scrolling. */
+    z-index: 1000; /* Navbar is above all other elements. */
+    background-color: black; /* Navbar background color. */
+    padding: 10px 20px 0px 20px; /* Padding around the navbar. */
+}
+
+/* Navbar Title */
+.nav-logo {
+    text-decoration: none; /* Removes underline from the logo. */
+    color: white; 
+    font-weight: bold; 
+    font-size: 2rem;
+    margin-left: 2rem; 
+}
+
+.braces {
+    color: #8F9094; 
+}
+
+/* Navbar Links */
+.nav-links {
+    display: flex; /* Arranges navbar links in a horizontal row. */
+    gap: 20px; /* Space between navbar links. */
+    margin-right: 60px; /* Margin to the right of the navbar links. */
+    font-weight: 500; 
+    font-size: 1rem; 
+}
+
+.nav-links a {
+    text-decoration: none; 
+    color: white;
+    font-weight: 500;
+}
+
+/* White line below navbar */
+.nav-line {
+    width: 100%; /* Width of the line. */
+    height: 0.1px; 
+    background-color: rgb(51, 51, 51);
+    margin-top: 0.75rem;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed; /* Sidebar is fixed to the screen. */
+    top: 0;  /* Sidebar is at the top of the screen. */
+    left: -250px; /* Sidebar is hidden to the left. */
+    width: 250px; /* Sidebar width. */
+    height: 100vh; /* Sidebar height. */
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    transition: left 0.3s ease; 
+    z-index: 1100; /* Sidebar is above the navbar. */
+}
+
+.sidebar.open {
+    left: 0; /* Sidebar is visible. */
+}
+
+.sidebar button {
+    background: none; 
+    border: none; 
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* White line below cross */
+.sidebar-line {
+    width: 100%;
+    height: 0.1px;
+    background-color: rgb(51, 51, 51);
+}
+
+/* Sidebar Links */
+.sidebar ul {
+    list-style: none; /* Removes bullet points from the list. */
+    padding: 0;
+    margin-top: 20px;
+}
+
+.sidebar li {
+    margin-bottom: 15px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hamburger Icon */
+.nav-hamburger {
+    display: none; /* Hamburger icon is hidden. */
+    cursor: pointer; 
+    font-size: 2rem; 
+}
+
+/* Responsive Styling */
+/* On small screens (≤768px) */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none !important; /* Navbar links are hidden. */
+    }
+
+    .nav-hamburger {
+        display: block !important; /* Hamburger icon is visible. */
+    }/* !important → This forces the rule to override any other conflicting styles that may have been applied elsewhere in the CSS. */
+
+    .nav-logo {
+        margin-left: 0rem; 
+    }
+}

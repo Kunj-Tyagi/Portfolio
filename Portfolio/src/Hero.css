@@ -1,0 +1,73 @@
+.hero-subheading {
+    color: #3CCF91;
+    line-height: 0.5rem;
+    /* Adjust for spacing : It determines how much space appears above and below each line.*/
+    font-size: 2rem;
+    /* Smaller size for distinction */
+    font-weight: 500;
+    /* Medium weight for less emphasis */
+    margin-bottom: 0.5rem;
+    /* Add spacing between lines */
+    margin-top: 0.5rem;
+}
+
+
+.hero-heading {
+    font-size: 7rem;
+    /* Large screens */
+    font-weight: 700;
+    /* Slightly less bold */
+    margin: 0;
+    transition: font-size 0.3s ease-in-out;
+}
+
+/* Medium screens */
+@media (max-width: 1024px) {
+    .hero-heading {
+        font-size: 5rem;
+    }
+}
+
+/* Small screens */
+@media (max-width: 768px) {
+    .hero-heading {
+        font-size: 4rem;
+    }
+}
+
+
+p.info-text {
+    color: #8F9094;
+    font-size: 1.25rem;
+    margin-bottom: 0rem;
+}
+
+@media (max-width: 768px) {
+    p.info-text {
+        font-size: 1rem;
+    }
+}
+
+.desc {
+    max-width: 60%;
+    word-break: break-word;
+    /* Ensures that long words that exceed the container's width will break and wrap onto the next line. */
+}
+
+/* If .container is 800px wide, then:
+
+.desc cannot be wider than 480px (60% of 800px).
+If the text inside .desc is shorter, it will only take the space it needs.
+If the text is longer, it will wrap instead of overflowing. */
+
+
+@media (max-width: 768px) {
+    .desc {
+        font-size: 1.5rem;
+        max-width: 100%;
+        /* Allow full width */
+    }
+}
+
+
+

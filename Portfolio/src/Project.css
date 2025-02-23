@@ -1,0 +1,7 @@
+@media (max-width: 990px) {
+    .card-right,.card-left {
+      margin-top: 3rem !important; /* Adjusts the margin-top to 1rem for small screens */
+    }
+
+    
+  }

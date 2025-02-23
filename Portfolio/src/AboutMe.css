@@ -1,0 +1,19 @@
+.about-text {
+    color: #8F9094;
+    font-size: 1.15rem; /* Default for larger screens */
+}
+
+@media (max-width: 768px) { /* Small screens (tablets & mobile) */
+    .about-text {
+        font-size: 1rem;
+    }
+}
+
+.profile-image {
+    border-radius: 50%; /* Makes the image circular */
+    width: 300px; /* Sets the width */
+    height: 300px; /* Sets the height */
+    object-fit: cover; /* Ensures the image fills the circle */
+    object-position: center top; /* Focus on the top center */
+}
+
