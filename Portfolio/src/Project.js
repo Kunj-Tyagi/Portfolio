@@ -55,7 +55,7 @@ function Project() {
                         {/* Card Body */}
                         <div className="card-body">
                             <div className="d-flex justify-content-between align-items-center mb-3">
-                                <h3 className="card-title mb-0">WanderWorld</h3>
+                                <h3 className="card-title mb-0">WanderLust</h3>
                                 <div>
                                     <a
                                         href="https://wanderlust-4-vmpt.onrender.com/"
